@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Rubik+Doodle+Shadow&display=swap');;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #2B2A4C;
+    color: #EEE2DE;
+}
+.destaque-titulo {
+    color: #EA906C;
+
+}
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresetacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+.apresentacao__conteudo_paragrafo {
+    font-size: 24px;
+    font-family: 'Exo', sans-serif;
+    padding-bottom: 50px;
+}
+.apresentacao__imagem {
+    width: 615px;
+}
+.apresentacao__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__botoes__link {
+    background-color: #EA906C;
+    width: 210px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Exo', sans-serif;
+
+}
